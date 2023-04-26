@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ostapkilbasovych/SausageGameProject/SausageGame/SausageGame.csproj": {}
+    "E:\\C#Projects\\SausageGameProject\\SausageGame\\SausageGame.csproj": {}
   },
   "projects": {
-    "/Users/ostapkilbasovych/SausageGameProject/SausageGame/SausageGame.csproj": {
+    "E:\\C#Projects\\SausageGameProject\\SausageGame\\SausageGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ostapkilbasovych/SausageGameProject/SausageGame/SausageGame.csproj",
+        "projectUniqueName": "E:\\C#Projects\\SausageGameProject\\SausageGame\\SausageGame.csproj",
         "projectName": "SausageGame",
-        "projectPath": "/Users/ostapkilbasovych/SausageGameProject/SausageGame/SausageGame.csproj",
-        "packagesPath": "/Users/ostapkilbasovych/.nuget/packages/",
-        "outputPath": "/Users/ostapkilbasovych/SausageGameProject/SausageGame/obj/",
+        "projectPath": "E:\\C#Projects\\SausageGameProject\\SausageGame\\SausageGame.csproj",
+        "packagesPath": "C:\\Users\\Vitalik\\.nuget\\packages\\",
+        "outputPath": "E:\\C#Projects\\SausageGameProject\\SausageGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ostapkilbasovych/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Vitalik\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

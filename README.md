@@ -1,1 +1,1 @@
-# SausageGameProject
+# Sausage Game project

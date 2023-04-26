@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5FzXA2q+Y6y3Ks+ceDz62GD58Oh7DzHUQdAgISgXg6IRB8S7IUlEVjlVzHkz3lvFzueE063sLhTAvmqv//Uxhg==",
+  "dgSpecHash": "RlOPtL5PDKkaSXBBv4y78ZI16mdYF5XKAlTRF2lpcQemqSM/ry14UoFLN0E7C1OuPJ9qtna9yMY5yXfzi+y0yw==",
   "success": true,
-  "projectFilePath": "/Users/ostapkilbasovych/SausageGameProject/SausageGame/SausageGame.csproj",
+  "projectFilePath": "E:\\C#Projects\\SausageGameProject\\SausageGame\\SausageGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

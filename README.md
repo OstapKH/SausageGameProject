@@ -13,7 +13,7 @@ The Card class represents a standard playing card with a suit (hearts, diamonds,
 The Deck class represents a deck of playing cards. It has a list of Card objects as its field, which is initialized with a full deck of cards in the constructor. The Deck class has several methods, including Shuffle() which shuffles the deck, and DrawCard() which removes and returns the top card from the deck.
 
 ### Player
-The Player class represents a player in the game. It has a Name field and a list of Card objects representing the player's hand. It also has several methods, including AddCardToHand() which adds a card to the player's hand, and ToString() which returns the player's name and the number of cards in their hand.
+The Player class represents a player in the game. It has a Name field and a list of Card objects representing the player's hand. It also has several methods, including AddCardToHand() which adds a card to the player's hand, and ToString() which returns the player's name and the number and names of cards in their hand.
 
 ### Game
 The Game class represents the game itself. It has a list of Player objects representing the players in the game, a Deck object representing the deck of cards, and a DealCards() method which deals a specified number of cards to each player. The Game class also has several methods related to playing the game, such as StartGame() which starts the game and PlayRound() which plays a round of the game.

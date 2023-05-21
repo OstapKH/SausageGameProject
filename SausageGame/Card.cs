@@ -2,6 +2,7 @@
 
 namespace SausageGame
 {
+    // Enumeration for card values
     public enum CardValue
     {
         Two = 2,
@@ -19,6 +20,7 @@ namespace SausageGame
         Ace = 14,
     }
 
+    // Enumeration for card suits
     public enum Suit
     {
         Hearts,
@@ -27,26 +29,31 @@ namespace SausageGame
         Spades
     }
 
+    // Class representing a playing card
     public class Card : IComparable<Card>
     {
-        public Suit Suit { get; }
-        public CardValue Value { get; }
+        public Suit Suit { get; }  // The suit of the card
+        public CardValue Value { get; }  // The value of the card
 
+        // Constructor to initialize the card with a suit and value
         public Card(Suit suit, CardValue value)
         {
             Suit = suit;
             Value = value;
         }
 
+        // Implementation of the IComparable interface for card comparison
         public int CompareTo(Card other)
         {
             return Value.CompareTo(other.Value);
         }
 
+        // Override of the ToString() method to provide a string representation of the card
         public override string ToString()
         {
             string valueString;
 
+            // Convert the card value to string representation
             switch (Value)
             {
                 case CardValue.Two:
@@ -78,6 +85,7 @@ namespace SausageGame
 
             string suitString;
 
+            // Convert the card suit to string representation
             switch (Suit)
             {
                 case Suit.Hearts:
@@ -96,8 +104,8 @@ namespace SausageGame
                     throw new ArgumentOutOfRangeException();
             }
 
+            // Combine the value and suit strings and return the card representation
             return $"{valueString}{suitString}";
         }
-
     }
 }

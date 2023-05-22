@@ -101,7 +101,7 @@ namespace SausageGame
             return roundOver;
         }
         
-        // Method to check if there is a single winner in the game
+        // Method that gives true when there is only one player left with all the cards - the winner
         private bool CheckWinner()
         {
             foreach (Player player in players)

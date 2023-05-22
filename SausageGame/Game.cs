@@ -104,13 +104,10 @@ namespace SausageGame
         // Method that gives true when there is only one player left with all the cards - the winner
         private bool CheckWinner()
         {
-            foreach (Player player in players)
+            if (players.Count == 1)
             {
-                if (players.Count == 1)
-                {
-                    Console.WriteLine($"Player {player.Name} has won the game!");
-                    return true;
-                }
+                Console.WriteLine($"Player {players.First().Name} has won the game!");
+                return true;
             }
             return false;
         }
